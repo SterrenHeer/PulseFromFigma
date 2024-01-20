@@ -29,6 +29,14 @@
             margin-top: 15px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -71,6 +79,6 @@
         width: 100%;
     }
     .consultation {
-        padding: 25px 0 23px 0;
+        padding: 25px 0 0 0;
     }
 }
