@@ -130,4 +130,12 @@
             width: 100%;
         }
     }
+    .modal {
+        width: 95%;
+        min-height: 330px;
+        &__close {
+            top: -40px;
+            right: 40px;
+        }
+    }
 }
