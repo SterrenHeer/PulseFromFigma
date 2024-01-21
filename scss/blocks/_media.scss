@@ -3,7 +3,18 @@
 }
 
 @media (max-width: 991px) {
-
+    .container {
+        padding: 8px;
+    }
+    .carousel {
+        padding: 20px 0;
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            gap: 0 10px
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -35,6 +46,19 @@
         }
         img {
             width: 100%;
+        }
+    }
+    .catalog {
+        padding-bottom: 40px;
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            width: 70%;
+            margin-bottom: 15px;
+        }
+        &-item {
+            width: 70%;
         }
     }
 }

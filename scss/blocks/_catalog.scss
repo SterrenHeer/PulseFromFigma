@@ -1,5 +1,5 @@
 .catalog {
-    padding: 60px 0 100px 0;
+    padding-bottom: 90px;
     &__tabs {
         margin-top: 46px;
         list-style-type: none;
@@ -47,7 +47,7 @@
     }
     &-item {
         width: 260px;
-        min-height: 440px;
+        min-height: 400px;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
