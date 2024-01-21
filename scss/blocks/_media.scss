@@ -123,4 +123,11 @@
             margin-left: 0px;
         }
     }
+    .footer {
+        &__info {
+            position: static;
+            transform: none;
+            width: 100%;
+        }
+    }
 }
